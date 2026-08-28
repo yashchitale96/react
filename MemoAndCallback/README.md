@@ -1,4 +1,4 @@
-Certainly! Here are in-depth notes in English based on the provided video transcript, which thoroughly explains three key React hooks: React.memo, useMemo, and useCallback, along with practical coding demonstrations and optimization concepts.
+Video Ref = https://www.youtube.com/watch?v=0-hl7me5dk4&t=2833s
 
 ---
 
