@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const Login = () => {
   // const [email, setEmail] = useState("");
@@ -9,24 +9,24 @@ const Login = () => {
   const emailRef = useRef(null);
   const passwordRef = useRef(null);
 
-  function handleSubmit(){
+  function handleSubmit(e){
     e.preventDefault();
     console.log(emailRef.current.value)
     console.log(passwordRef.current.value)
   }
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           type="email"
-          value={email}
+          // value={email}
           // onChange={(e) => setEmail(e.target.value)}
           ref={emailRef}
         />
 
         <input
           type="password"
-          value={password}
+          // value={password}
           // onChange={(e) => setPassword(e.target.value)}
           ref={passwordRef}
         />
