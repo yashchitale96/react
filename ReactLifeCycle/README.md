@@ -1,4 +1,4 @@
-Certainly! Here is an in-depth, detailed summary and notes of the video content translated into English:
+Video Ref = https://www.youtube.com/watch?v=2RpJ0IqCnTQ&t=4s
 
 ---
 
