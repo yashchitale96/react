@@ -7,10 +7,12 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   const [toggle, setToggle] = useState(false);
 
+  // mounting phase
   useEffect(()=>{
     console.log('Parent Component Mounting....')
   },[])
 
+  // update phase
   useEffect(()=>{
     console.log('Parent Component - State of counter is changed')
   },[counter])
