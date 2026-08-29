@@ -32,7 +32,9 @@ const App = () => {
         <p>{counter}</p>
         <button onClick={()=>setCounter(counter+1)}>Increment</button>
         <Sum number={counter}/>
-        <h1>{prime}</h1>
+        
+        <p>Prime is : {prime}</p>
+         <button onClick={()=>setNumber(number+1000)}>Prime</button>
     </div>
   )
 }
